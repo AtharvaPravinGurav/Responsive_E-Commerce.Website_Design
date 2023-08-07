@@ -29,7 +29,7 @@ section{
     color:#333;
     padding:1rem;
     margin:2rem 0;
-    background:rgba(255, 184, 0);
+    background:rgba(246, 63, 63, 0.05);
 }
 
 .heading span{
@@ -38,9 +38,8 @@ section{
 
 .btn{
     display: inline-block;
-    margin-top: 0rem;
-    margin-left: 34rem;
-    border-radius: 2rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
     background:#333;
     color:#fff;
     padding:.9rem 3.5rem;
@@ -66,7 +65,7 @@ header{
 
 header .logo{
     font-size: 3rem;
-    color:rgb(255, 184, 0);
+    color:rgb(255, 0, 0);
     font-weight: bolder;
 }
 
@@ -112,7 +111,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../images/home-bg.png) no-repeat;
+    background:url(../images/home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -143,7 +142,7 @@ header .fa-bars{
 .about .row{
     display: flex;
     align-items: center;
-    gap:5rem;
+    gap:2rem;
     flex-wrap: wrap;
     padding:2rem 0;
     padding-bottom: 3rem;
